@@ -24,10 +24,10 @@ model	speed	hd
 
 2)Найдите производителей принтеров. Вывести: maker
 
-SELECT maker
+SELECT DISTINCT maker
 FROM Product
 WHERE type='Printer'
-GROUP BY maker
+
 
 Результат выполнения Вашего запроса:
 maker
